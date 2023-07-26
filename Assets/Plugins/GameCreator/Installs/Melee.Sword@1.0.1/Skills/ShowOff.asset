@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 926b1857c61f413faedb2dbfeb093099, type: 3}
+  m_Name: ShowOff
+  m_EditorClassIdentifier: 
+  m_Title:
+    m_Property:
+      rid: 7624061436896215087
+  m_Description:
+    m_Property:
+      rid: 7624061436896215088
+  m_Icon:
+    m_Property:
+      rid: 7624061436896215089
+  m_Color:
+    m_Property:
+      rid: 7624061436896215090
+  m_Charge:
+    m_State:
+      m_StateType: 2
+      m_AnimationClip: {fileID: 0}
+      m_RuntimeController: {fileID: 0}
+      m_State: {fileID: 0}
+      m_AvatarMask: {fileID: 0}
+    m_Layer: 6
+  m_Strike:
+    m_Direction: 3
+    m_Predictions: 1
+    m_UseStrikers: 0
+    m_Id:
+      m_String: striker-id
+  m_Trail:
+    m_IsActive: 1
+    m_Length:
+      m_IsEnabled: 0
+      m_Value: 2
+    m_Quads:
+      m_IsEnabled: 0
+      m_Value: 32
+    m_Material:
+      m_IsEnabled: 0
+      m_Value: {fileID: 0}
+  m_Effects:
+    m_SoundUse:
+      m_Property:
+        rid: 7624061436896215091
+    m_SoundHit:
+      m_Property:
+        rid: 7624061436896215092
+    m_SoundBlocked:
+      m_Property:
+        rid: 7624061436896215093
+    m_SoundParried:
+      m_Property:
+        rid: 7624061436896215094
+    m_HitPause: 1
+    m_HitPauseTimeScale: 0.05
+    m_HitPauseDelay: 0.1
+    m_HitPauseDuration: 0.1
+    m_HitEffect:
+      m_Property:
+        rid: 7624061436896215095
+  m_Animation: {fileID: 7400000, guid: a8dd7aae3d6e04287b555acead699ace, type: 2}
+  m_Mask: {fileID: 0}
+  m_Motion: 1
+  m_SyncReaction: {fileID: 0}
+  m_Gravity: 1
+  m_TransitionIn: 0.2
+  m_TransitionOut: 0.5
+  m_MeleeSequence:
+    m_Sequence:
+      m_Tracks:
+      - rid: 7624061436896215096
+      - rid: 7624061436896215097
+      - rid: 7624061436896215098
+      - rid: 7624061436896215099
+      - rid: 7624061436896215100
+      - rid: 7624061436896215101
+  m_SpeedAnticipation:
+    m_Property:
+      rid: 7624061436896215102
+  m_SpeedStrike:
+    m_Property:
+      rid: 7624061436896215103
+  m_SpeedRecovery:
+    m_Property:
+      rid: 7624061436896215104
+  m_PoiseArmor:
+    m_Property:
+      rid: 3592961173426012753
+  m_PoiseDamage:
+    m_Property:
+      rid: 7624061436896215106
+  m_Power:
+    m_Property:
+      rid: 7624061436896215107
+  m_OnStart:
+    m_Instructions:
+      m_Instructions: []
+  m_OnFinish:
+    m_Instructions:
+      m_Instructions: []
+  m_OnHit:
+    m_Instructions:
+      m_Instructions: []
+  <EditorModelPath>k__BackingField: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 3592961173426012753
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 4
+    - rid: 7624061436896215087
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Show Off
+    - rid: 7624061436896215088
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: 
+    - rid: 7624061436896215089
+      type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215090
+      type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215091
+      type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215092
+      type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215093
+      type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215094
+      type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215095
+      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215096
+      type: {class: TrackMeleePhases, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Clips:
+        - m_Time: 0.036363635
+          m_Duration: 0.14545454
+    - rid: 7624061436896215097
+      type: {class: TrackMeleeCancel, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Clips: []
+    - rid: 7624061436896215098
+      type: {class: TrackMeleeRootMotionPosition, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Clips:
+        - m_Time: 0
+          m_Duration: 0
+    - rid: 7624061436896215099
+      type: {class: TrackMeleeRootMotionRotation, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Clips:
+        - m_Time: 0.94545454
+          m_Duration: 0
+    - rid: 7624061436896215100
+      type: {class: TrackMeleeMotionWarping, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Clips:
+        - m_Time: 0.3
+          m_Duration: 0
+          m_Conditions:
+            m_Conditions:
+              m_Conditions: []
+          m_Easing: 3
+          m_Self:
+            m_Property:
+              rid: 7624061436896215108
+          m_Target:
+            m_Property:
+              rid: 7624061436896215109
+    - rid: 7624061436896215101
+      type: {class: TrackDefault, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Clips: []
+    - rid: 7624061436896215102
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215103
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215104
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215106
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215107
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7624061436896215108
+      type: {class: GetLocationTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Position:
+          m_IsEnabled: 0
+          m_Value: {x: 0, y: 0, z: 0}
+        m_Rotation:
+          m_IsEnabled: 0
+          m_Value: {x: 0, y: 0, z: 0}
+    - rid: 7624061436896215109
+      type: {class: GetLocationNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
